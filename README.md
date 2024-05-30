@@ -6,7 +6,7 @@
 ## versões
 
  - [Node.js 20.14.0](https://nodejs.org/en/download/prebuilt-installer)
- - NPM 10.8.1
+ - NPM 10.8.1 (se instalarem corretamente é esta a versão que vem com o node, qualquer coisa façam " npm instal -g npm)
 
 
 ## Install
