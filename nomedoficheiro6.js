@@ -15,25 +15,25 @@
 
         net.run({entrada1:0, entrada2:0})
     
-    ).toFixed(0);
+    ).toFixed(0); // output devia ser 0
     
     const output01 = parseFloat(
     
         net.run({entrada1:0, entrada2:1})
     
-    ).toFixed(0);
+    ).toFixed(0); // output devia ser 1
     
     const output10 = parseFloat(
     
         net.run({entrada1:1, entrada2:0})
     
-    ).toFixed(0); 
+    ).toFixed(0); // output devia ser 1
     
     const output11 = parseFloat(
     
         net.run({entrada1:1, entrada2:1})
     
-    ).toFixed(0);
+    ).toFixed(0); // output devia ser 0
     
     console.log('0 xor 0: ' + output00);
     console.log('0 xor 1: ' + output01);
