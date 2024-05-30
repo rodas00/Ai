@@ -9,7 +9,8 @@
         {input:{entrada1:1, entrada2:1}, output:{saida:0}},
     ]);
 
-    // se derem debug e derem hover no net.run na janela vão até output, ele mostra 3 e o primeiro tem o output correto mas por alguma razão devolve o NaN dos outros outputs
+    // se derem debug e derem hover no net.run na janela vão até output, ele mostra 3 e o primeiro tem o output correto mas por alguma razão os outros tem NaN, é suposto todos
+    // terem um valor, os ultimos 2 output arrays devem dar valores entre 1 e 0 tipo 0.912321
     const output00 = parseFloat(
 
         net.run({entrada1:0, entrada2:0})
