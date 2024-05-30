@@ -1,5 +1,5 @@
 // construindo a a variável de configuração num ficheiro nomedoficheiro8.js
-const brain = require('brainjs');
+const brain = require('brain.js');
 const config = {
 binaryThresh: 0.5,
 hiddenLayers: [3],
