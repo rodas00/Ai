@@ -14,6 +14,6 @@ crossValidate.train(data, trainingOptions);
 const json = crossValidate.toJSON();
 const net = crossValidate.toNeuralNetwork();
 console.log(`taxa de erro: ${json.sets[3].error}\niterações: ${json.sets[3].iterations}`);
-const output = net.run([0, 1]);
+const output = parseFloat(net.run([0, 1])).toFixed(0);
 console.log(`resultado: ${output[0]}`);
 //guardem e executem o ficheiro

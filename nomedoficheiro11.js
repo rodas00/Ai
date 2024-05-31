@@ -20,6 +20,6 @@ net.train(
     timeout: Infinity
   }
 );
-const output = net.run([0, 1]);
+const output = parseFloat(net.run([0, 1])).toFixed(0);
 console.log(output);
 // Guardem e executem
